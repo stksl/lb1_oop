@@ -15,5 +15,5 @@ public:
     progression* Init(double f, double s); // метод  ініціалізації полей
     void Read();  //  метод для зчитування полей з потоку вводу
     void Display(); //  метод  для відображення полей в поток виводу
-    double elementj(unsigned int j); // отримання (j + 1)-го елементу прогресії
+    double elementj(unsigned short j); // отримання (j + 1)-го елементу прогресії
 };
